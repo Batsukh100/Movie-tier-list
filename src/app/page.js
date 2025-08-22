@@ -40,7 +40,7 @@ const Page = () => {
     setMovies(movies.filter((movie) => movie.id !== id));
   };
   return (
-    <div className="w-full h-screen bg-blue-500 ">
+    <div className="w-screen h-screen bg-blue-200 ">
       <div className="flex  flex-col items-center  ">
         <h1 className="text-4xl font-bold mb-4">
           Welcome to the Movie Tier List
