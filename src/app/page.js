@@ -34,6 +34,7 @@ const Page = () => {
       tier: selectedMovie.tier,
     };
     setMovies([...movies, movie]);
+    setSelectedMovie({ moviename: "", image: "", tier: "C" });
   };
   const DELETED = (id) => {
     setMovies(movies.filter((movie) => movie.id !== id));
