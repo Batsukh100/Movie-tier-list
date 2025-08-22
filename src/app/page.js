@@ -40,7 +40,7 @@ const Page = () => {
     setMovies(movies.filter((movie) => movie.id !== id));
   };
   return (
-    <div className="w-screen h-screen bg-blue-200 ">
+    <div className="w-screen h-screen  ">
       <div className="flex  flex-col items-center  ">
         <h1 className="text-4xl font-bold mb-4">
           Welcome to the Movie Tier List
@@ -82,7 +82,7 @@ const Page = () => {
           return (
             <div key={index}>
               <div className="font-bold text-xl ">{tier} TIER</div>
-              <div className="flex gap-4 flex-wrap justify-center p-4 ">
+              <div className="flex gap-4 flex-wrap  ">
                 {FilteredMovies.map((mov) => {
                   return (
                     <div
